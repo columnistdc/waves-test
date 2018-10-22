@@ -1,0 +1,16 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "semi": [1, "never"],
+    "react/no-typos": 1,
+    "react/jsx-indent": [2, 2]
+  }
+}
